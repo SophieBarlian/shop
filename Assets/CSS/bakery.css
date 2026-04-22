@@ -1,0 +1,70 @@
+body {
+    background:url(../Images/grunge-paint-texture-13993241322QQ.jpg) fixed;
+    font-family:sans-serif;
+    font-size:larger;
+}
+header, footer {
+    display:flex;
+    justify-content:space-around;
+    margin:3rem;
+}
+h1, h2 {
+    display:inline-block;
+    background:black;
+    color:white;
+    padding:10px 20px;
+    margin:0 auto;
+    border-radius:2rem;
+    overflow:hidden;
+    text-align:center;
+}
+main > h2 {
+    display:block;
+    max-width: 200px;
+}
+footer h2 span {
+    display: inline-block;
+    font-size:smaller;
+}
+dt {font-weight:bold;
+}
+dt:after {
+    content:":";
+}
+.productContainer {
+    background:rgba(255,255,255,0.5);
+    width: 90%;
+    max-width: 800px;
+    padding:1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:stretch;
+    margin:3rem auto;
+    border-radius:1rem;
+}
+.imageContainer {
+    background:rgba(255,255,255,0.7);
+    padding:1rem;
+    flex:1;
+    border-radius:1rem 0 0 1rem;
+}
+.textContainer {
+    background:rgba(255,255,255,0.7);
+    padding:1rem;
+    flex:1;
+    border-radius:0 1rem 1rem;
+ }
+img {
+    max-width:100%;
+}
+@media (min-width: 800px) {
+    .productContainer {
+        flex-direction: row;
+    }
+}
+.imageContainer,
+.textContainer {
+    background: rgba(255,255,255,0.7);
+    padding: 1rem;
+    flex: 1;
+}
