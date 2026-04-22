@@ -28,7 +28,7 @@ footer h2 span {
 }
 dt {font-weight: bold;
 }
-dt: after {
+dt:after {
     content: ": ";
 }
 .productContainer {
